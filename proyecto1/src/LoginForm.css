@@ -1,3 +1,4 @@
+
 body {
   display: flex;
   justify-content: center;
@@ -5,6 +6,7 @@ body {
   height: 100vh;
   margin: 0;
 }
+
 
 .login-container {
   width: 300px;
@@ -54,10 +56,11 @@ button:hover {
 
 @media (max-width: 600px) {
   .login-container {
-    width: 90%; 
+    width: 90%;
   }
 
   input {
-    width: 100%; 
+    width: 100%;
   }
 }
+
