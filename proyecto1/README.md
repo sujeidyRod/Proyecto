@@ -2,7 +2,7 @@
 #11458-SGRO
 
 1-creacion del repositorio y publicacion de el 
-![proyecto1/src/ImagenesCap/cap2.png]
+![proyecto/proyecto1/src/ImagenesCap/cap2.png]
 ![proyecto1/src/ImagenesCap/cap3.png]
 ![proyecto1/src/ImagenesCap/cap4.png]
 ![proyecto1/src/ImagenesCap/cap5.png]
