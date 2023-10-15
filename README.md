@@ -1,7 +1,7 @@
 # Registro de Cambios 11458-SGRO
 
 ## 1- Creación del Repositorio y Publicación
-- [cap2.png](proyecto1/src/ImagenesCap/cap2.png)
+- [cap.2.png](proyecto1/src/ImagenesCap/cap2.png)
 - [cap3.png](proyecto1/src/ImagenesCap/cap3.png)
 - [cap4.png](proyecto1/src/ImagenesCap/cap4.png)
 - [cap5.png](proyecto1/src/ImagenesCap/cap5.png)
