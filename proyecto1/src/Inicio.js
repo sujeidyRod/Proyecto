@@ -1,44 +1,40 @@
 import React, { useState } from 'react';
-import { GiHamburgerMenu } from 'react-icons/gi';
-import './LoginForm.css';
+import './Inicio.css';
+import gato1 from './gato1.png';
 
 const Inicio = ({ username, onLogout }) => {
-  const [showMenu, setShowMenu] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
-  const handleLogout = () => {
-    onLogout();
-  };
-
-  const toggleMenu = () => {
-    setShowMenu(!showMenu);
+  const handleMenuClick = () => {
+    setMenuOpen(!menuOpen);
   };
 
   return (
-    <div>
-      <h2>Bienvenido, {username}!</h2>
-      <div className="header">
-        <button onClick={toggleMenu} className="menu-button">
-          <GiHamburgerMenu />
+    <div className={`container ${menuOpen ? 'open' : ''}`}>
+      <div className="sidebar">
+        <button className={`menu-button ${menuOpen ? 'open' : ''}`} onClick={handleMenuClick}>
+          <div className="bar"></div>
+          <div className="bar"></div>
+          <div className="bar"></div>
         </button>
+        {menuOpen && (
+          <div className="menu-items"> 
+            <button>Inicio</button> 
+            <button>Perfil</button> 
+            <button>Configuración</button> 
+            <button onClick={onLogout}>Cerrar Sesión</button>
+          </div>
+        )}
       </div>
-
-      {showMenu && (
-        <div className="menu" onClick={toggleMenu}>
-          <ul>
-            <li>Inicio</li>
-            <li>Perfil</li>
-            <li>Configuraciones</li>
-            <li onClick={handleLogout}>Cerrar Sesión</li>
-          </ul>
-        </div>
-      )}
-
-      <div className="content">
-        <h3>Título de la página</h3>
-        <p>Contenido de la página.</p>
+      <div className={`content ${menuOpen ? 'hidden' : ''}`}>
+        <h2 style={{ color: '#BA55D3' }}>Bienvenido, {username}!</h2>
+        <h3 style={{ color: '#BA55D3' }}>Hola</h3>
+        <img src={gato1} alt="Gato" />
+        <p style={{ color: '#9932CC' }}>{username}</p>
       </div>
     </div>
   );
 };
 
 export default Inicio;
+

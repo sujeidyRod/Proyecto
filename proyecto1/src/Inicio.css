@@ -1,101 +1,76 @@
+/* Inicio.css */
 .container {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
+    background-color: #F5F5F5;
     height: 100vh;
-    background-color: #f0f0f0;
-    position: relative;
-}
-
-.header {
+  }
+  
+  .sidebar {
+    background-color: #d900d2;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    width: 100%;
-    padding: 16px;
-    background-color: #d900d2;
-    color: white;
-    position: relative;
-}
-
-.menu-button {
-    background: none;
+    padding: 30px;
+    width: 200px; 
+  }
+  
+  .menu-button {
+    font-size: 40px;
     border: none;
+    background: none;
     cursor: pointer;
+    margin: 5px;
     color: white;
-    font-size: 24px;
-    position: absolute;
-    top: 16px;
-    left: 16px; /* Posicionar el icono hamburguesa a la izquierda */
-}
-
-h2 {
-    margin: 16px;
-    text-align: center;
-    color: white;
-}
-
-.menu {
     background-color: #d900d2;
-    color: black;
-    padding: 16px;
-    position: absolute;
-    top: 50px;
-    left: 16px; /* Mover el menú a la esquina superior izquierda */
-    display: none;
-}
-
-.menu.active {
-    display: block;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-    text-align: left;
-}
-
-li {
-    padding: 8px 0;
-    cursor: pointer;
-    font-weight: bold;
-    text-align: left; /* Alinea el texto a la izquierda */
-}
-
-li:hover {
-    background-color: #555555;
-}
-
-.content {
+    border-radius: 5px;
+    padding: 15px 30px; 
+    text-align: center;
+    width: 100%; 
+  }
+  
+  .menu-button.open {
+    transform: translateX(0); 
+  }
+  
+  .bar {
+    background-color: white;
+    height: 4px;
+    width: 30px;
+    margin: 4px 0;
+    border-radius: 2px;
+  }
+  
+  .menu-button:hover {
+    background-color: #D8BFD8;
+  }
+  
+  .menu-items {
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+  }
+  
+  .content {
+    flex: 1; 
     padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center; /* Alinea el contenido al centro de la página */
-}
-
-h3 {
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  h3 {
     font-size: 24px;
     margin-bottom: 20px;
-}
-
-button {
-    font-size: 18px;
-    background-color: #d900d2;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    margin: 5px;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-p {
+  }
+  
+  p {
     font-size: 18px;
     margin-bottom: 20px;
-}
+  }
+  
