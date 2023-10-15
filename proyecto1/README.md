@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Proyecto 1 SGRO-11458
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Paso 1: Creación del Repositorio y Publicación
 
-## Available Scripts
+- Creé el repositorio y lo publiqué.
+![Imagen 1](proyecto1/src/ImagenesCap/cap2.png)
+![Imagen 2](proyecto1/src/ImagenesCap/cap3.png)
+![Imagen 3](proyecto1/src/ImagenesCap/cap4.png)
+![Imagen 4](proyecto1/src/ImagenesCap/cap5.png)
 
-In the project directory, you can run:
+## Paso 2: Creación de la Rama
 
-### `npm start`
+- Creé una nueva rama en el repositorio.
+![Imagen 5](proyecto1/src/ImagenesCap/cap6.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Paso 3: Creación del Proyecto
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Inicié el proyecto.
+![Imagen 6](proyecto1/src/ImagenesCap/cap1.png)
 
-### `npm test`
+## Paso 4: Segundo Commit
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Realicé el segundo commit en la rama.
+![Imagen 7](proyecto1/src/ImagenesCap/cap7.png)
+![Imagen 8](proyecto1/src/ImagenesCap/cap8.png)
 
-### `npm run build`
+## Paso 5: Tercer Commit
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Realicé el tercer commit en la rama.
+![Imagen 9](proyecto1/src/ImagenesCap/cap9.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Paso 6: Cuarto Commit
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Realicé el cuarto commit en la rama.
+![Imagen 10](proyecto1/src/ImagenesCap/cap13.png)
 
-### `npm run eject`
+## Paso 7: Proyecto Terminado
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Finalicé el proyecto.
+![Imagen 11](proyecto1/src/ImagenesCap/cap10.png)
+![Imagen 12](proyecto1/src/ImagenesCap/cap11.png)
+![Imagen 13](proyecto1/src/ImagenesCap/cap12.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Paso 8: Proyecto de Forma Responsiva
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Hice que el proyecto fuera responsivo.
+![Imagen 14](proyecto1/src/ImagenesCap/cap13.png)
+![Imagen 15](proyecto1/src/ImagenesCap/cap14.png)
+![Imagen 16](proyecto1/src/ImagenesCap/cap15.png)
