@@ -1,4 +1,4 @@
-# Proyecto 1 SGRO-11458
+# Proyecto 1
 
 ## Paso 1: Creación del Repositorio y Publicación
 
@@ -47,3 +47,4 @@
 ![Imagen 14](proyecto1/src/ImagenesCap/cap13.png)
 ![Imagen 15](proyecto1/src/ImagenesCap/cap14.png)
 ![Imagen 16](proyecto1/src/ImagenesCap/cap15.png)
+
